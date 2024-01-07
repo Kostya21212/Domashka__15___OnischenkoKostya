@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    background-color: bisque;
+}
+#inputText {
+    background-color: #dd9119;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    
+}
+#app {
+    width: 300px;
+    text-align: center;
+}
+
+#textInput {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+.deleteButton {
+    cursor: pointer;
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+#buttonInput{
+    background-color: #ff6961;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+#buttonInput:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.deleteButton{
+    border: 3px solid black
+}
